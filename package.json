@@ -1,0 +1,37 @@
+{
+  "name": "express-bookshelf-postgres",
+  "version": "1.0.0",
+  "description": "api composed of express bookshelf postgres",
+  "main": "server.js",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "body-parser": "^1.13.2",
+    "bookshelf": "^0.8.1",
+    "compression": "^1.5.1",
+    "express": "^4.13.1",
+    "knex": "^0.8.6",
+    "pg": "^4.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b-rucel/express-bookshelf-postgres.git"
+  },
+  "keywords": [
+    "express",
+    "bookshelf",
+    "knex",
+    "postgres",
+    "nodejs"
+  ],
+  "author": "Bruce Lim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b-rucel/express-bookshelf-postgres/issues"
+  },
+  "homepage": "https://github.com/b-rucel/express-bookshelf-postgres"
+}

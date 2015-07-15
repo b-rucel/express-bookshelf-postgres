@@ -27,7 +27,7 @@ app.all('/*', function(req, res, next) {
 });
 
 // routes
-app.use('/', require('./app/routes'));
+app.use('/', require('./api/routes'));
 
 
 // 404
